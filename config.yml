@@ -1,0 +1,10 @@
+cache:
+  ttl_seconds: 86400
+  file: ".cache"
+
+opencck:
+  main: "https://iplist.opencck.org/?format=json&data=domains&wildcard=1&exclude[group]=ai&exclude[group]=casino"
+  telegram: "https://iplist.opencck.org/?format=json&data=cidr4&site=telegram.org"
+
+dns:
+  doh_url: "https://dns.google/resolve"

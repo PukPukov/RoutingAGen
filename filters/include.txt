@@ -1,0 +1,45 @@
+# заблокированное.впны
+blancvpn.com
+blancvpn.guru
+durevpn.com
+durev-connect.online
+redshieldvpn.me
+# заблокированное.оокла спидтест
+speedtest.net
+ooklaserver.net
+valtrix.org
+cdnst.net
+uu.net
+melbicom.net
+pingless.com
+vodafone.al
+tibo.al
+abissnet.al
+ibc.al
+# заблокированное.прочее
+maximkatz.com
+opencck.org
+hcaptcha.com
+ton.org
+# плохо грузящееся на пидорашьем интернете
+openjdk.org
+arena.ai
+bcachefs.org
+jsonbeautifier.org
+extranix.com
+noogle.dev
+who.is
+canvasmc.io
+poople.io
+unmojang.org
+hypebeast.com
+safe.ai
+mega.nz
+mega.co.nz
+lwjgl.org
+arstechnica.com
+arstechnica.net
+cloudflare.com
+archive.org
+# обрыганы
+wikidot.com
