@@ -43,3 +43,4 @@ cloudflare.com
 archive.org
 # обрыганы
 wikidot.com
+wdfiles.com
