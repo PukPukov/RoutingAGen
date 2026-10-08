@@ -1,6 +1,6 @@
 {
   "https://iplist.opencck.org/?format=json&data=domains&wildcard=1&exclude[group]=ai&exclude[group]=casino": {
-    "timestamp": 1787443711.8363125,
+    "timestamp": 1791497594.1115196,
     "data": {
       "amedia.site": [
         "amd.online"
@@ -1030,6 +1030,9 @@
         "zetflix.app",
         "zetimage.net"
       ],
+      "revanced.app": [
+        "revanced.app"
+      ],
       "youtube.com": [
         "ggpht.cn",
         "ggpht.com",
@@ -1213,7 +1216,7 @@
     }
   },
   "https://iplist.opencck.org/?format=json&data=cidr4&site=telegram.org": {
-    "timestamp": 1787443712.592984,
+    "timestamp": 1791497594.4874775,
     "data": {
       "telegram.org": [
         "3.0.0.0/9",
@@ -1275,7 +1278,7 @@
     }
   },
   "https://dns.google/resolve?name=_minecraft._tcp.minemalia.net&type=SRV": {
-    "timestamp": 1787443712.980425,
+    "timestamp": 1791497594.8096306,
     "data": {
       "Status": 0,
       "TC": false,
@@ -1294,14 +1297,14 @@
           "name": "minemalia.net.",
           "type": 6,
           "TTL": 1800,
-          "data": "edward.ns.cloudflare.com. dns.cloudflare.com. 2410974310 10000 2400 604800 1800"
+          "data": "edward.ns.cloudflare.com. dns.cloudflare.com. 2415121518 10000 2400 604800 1800"
         }
       ],
-      "Comment": "Response from 108.162.194.171."
+      "Comment": "Response from 172.64.34.171."
     }
   },
   "https://dns.google/resolve?name=minemalia.net&type=A": {
-    "timestamp": 1787443713.361417,
+    "timestamp": 1791497594.981427,
     "data": {
       "Status": 0,
       "TC": false,
@@ -1320,20 +1323,20 @@
           "name": "minemalia.net.",
           "type": 1,
           "TTL": 300,
-          "data": "172.67.198.111"
+          "data": "188.114.96.1"
         },
         {
           "name": "minemalia.net.",
           "type": 1,
           "TTL": 300,
-          "data": "104.21.60.171"
+          "data": "188.114.97.1"
         }
       ],
       "Comment": "Response from 162.159.44.210."
     }
   },
   "https://dns.google/resolve?name=_minecraft._tcp.zyrex.xyz&type=SRV": {
-    "timestamp": 1787443713.7291224,
+    "timestamp": 1791497595.2493331,
     "data": {
       "Status": 0,
       "TC": false,
@@ -1352,10 +1355,10 @@
           "name": "_minecraft._tcp.zyrex.xyz.",
           "type": 33,
           "TTL": 300,
-          "data": "0 5 25695 uae-1.royalnode.cloud."
+          "data": "0 5 25607 uae-3.royalnode.cloud."
         }
       ],
-      "Comment": "Response from 172.64.33.162."
+      "Comment": "Response from 108.162.192.202."
     }
   },
   "https://dns.google/resolve?name=uae-1.royalnode.cloud&type=A": {
@@ -1385,7 +1388,7 @@
     }
   },
   "https://dns.google/resolve?name=zyrex.xyz&type=A": {
-    "timestamp": 1787443714.4017022,
+    "timestamp": 1791497595.3081813,
     "data": {
       "Status": 0,
       "TC": false,
@@ -1403,14 +1406,15 @@
         {
           "name": "zyrex.xyz.",
           "type": 6,
-          "TTL": 1592,
-          "data": "elliot.ns.cloudflare.com. dns.cloudflare.com. 2412441710 10000 2400 604800 1800"
+          "TTL": 1800,
+          "data": "elliot.ns.cloudflare.com. dns.cloudflare.com. 2416233233 10000 2400 604800 1800"
         }
-      ]
+      ],
+      "Comment": "Response from 172.64.32.202."
     }
   },
   "https://dns.google/resolve?name=_minecraft._tcp.play.minemalia.net&type=SRV": {
-    "timestamp": 1787443714.7465174,
+    "timestamp": 1791497595.0434706,
     "data": {
       "Status": 0,
       "TC": false,
@@ -1429,14 +1433,14 @@
           "name": "minemalia.net.",
           "type": 6,
           "TTL": 1800,
-          "data": "edward.ns.cloudflare.com. dns.cloudflare.com. 2410974310 10000 2400 604800 1800"
+          "data": "edward.ns.cloudflare.com. dns.cloudflare.com. 2415121518 10000 2400 604800 1800"
         }
       ],
-      "Comment": "Response from 108.162.194.171."
+      "Comment": "Response from 172.64.35.210."
     }
   },
   "https://dns.google/resolve?name=play.minemalia.net&type=A": {
-    "timestamp": 1787443715.1103854,
+    "timestamp": 1791497595.1212883,
     "data": {
       "Status": 0,
       "TC": false,
@@ -1467,118 +1471,449 @@
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.10"
+          "data": "92.62.241.63"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.4"
+          "data": "92.62.241.70"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.3"
+          "data": "92.62.241.69"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.15"
+          "data": "92.62.241.62"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.13"
+          "data": "92.62.241.73"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.11"
+          "data": "92.62.241.65"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.16"
+          "data": "92.62.241.72"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.7"
+          "data": "92.62.241.58"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.18"
+          "data": "92.62.241.71"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.1"
+          "data": "92.62.241.68"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.19"
+          "data": "92.62.241.59"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.8"
+          "data": "92.62.241.74"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.9"
+          "data": "92.62.241.66"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.12"
+          "data": "92.62.241.64"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.17"
+          "data": "92.62.241.60"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.14"
+          "data": "92.62.241.76"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.6"
+          "data": "92.62.241.61"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.2"
+          "data": "92.62.241.67"
         },
         {
           "name": "edge-front-de.infinity-filter.com.",
           "type": 1,
           "TTL": 300,
-          "data": "92.62.241.5"
+          "data": "92.62.241.75"
         }
       ],
-      "Comment": "Response from 108.162.193.78."
+      "Comment": "Response from 173.245.59.78."
+    }
+  },
+  "https://iplist.opencck.org/?format=json&data=domains&wildcard=1&group=ai": {
+    "timestamp": 1791497594.2933397,
+    "data": {
+      "aistudio.google.com": [
+        "google.com"
+      ],
+      "canva.com": [
+        "canva-apps.com",
+        "canva.com"
+      ],
+      "chatgpt.com": [
+        "auth0.com",
+        "chatgpt.com",
+        "gpt3-openai.com",
+        "live.net",
+        "microsoft.com",
+        "oaistatic.com",
+        "oaiusercontent.com",
+        "openai.com",
+        "openai.fund",
+        "openai.org"
+      ],
+      "claude.ai": [
+        "anthropic.com",
+        "clau.de",
+        "claude.ai",
+        "claude.app",
+        "claude.com",
+        "claude.new",
+        "claude.site",
+        "claudemcpclient.com",
+        "claudemcpcontent.com",
+        "claudepages.dev",
+        "claudestudio.com",
+        "claudeusercontent.com",
+        "datadoghq.com",
+        "intercom.io",
+        "intercomassets.com",
+        "intercomcdn.com",
+        "modelcontextprotocol.com",
+        "modelcontextprotocol.io",
+        "modelcontextprotocol.net",
+        "modelcontextprotocol.org"
+      ],
+      "copilot": [
+        "a-msedge.net",
+        "appcenter.ms",
+        "azureedge.net",
+        "bing.com",
+        "bingapis.com",
+        "github.com",
+        "githubcopilot.com",
+        "githubusercontent.com",
+        "microsoft.com",
+        "microsoftapp.net"
+      ],
+      "cursor.com": [
+        "cursor-cdn.com",
+        "cursor.com",
+        "cursor.sh",
+        "cursorapi.com",
+        "cursorvm.com",
+        "todesktop.com"
+      ],
+      "deepl.com": [
+        "deepl.com"
+      ],
+      "deepseek.com": [
+        "deepseek.com"
+      ],
+      "elevenlabs.io": [
+        "cloudfunctions.net",
+        "elevenlabs.io"
+      ],
+      "grammarly.com": [
+        "grammarly.com",
+        "grammarly.io"
+      ],
+      "grok.com": [
+        "grok.com",
+        "x.ai"
+      ],
+      "kilo.ai": [
+        "kilo.ai"
+      ],
+      "meta.ai": [
+        "facebook.com",
+        "fastly-edge.com",
+        "fbcdn.net",
+        "meta.ai",
+        "meta.com"
+      ],
+      "notebooklm.google": [
+        "google.com",
+        "googleapis.com",
+        "notebook.google",
+        "notebooklm.google"
+      ],
+      "perplexity.ai": [
+        "amazonaws.com",
+        "browser-intake-datadoghq.com",
+        "cloudflareaccess.com",
+        "cloudinary.com",
+        "perplexity.ai",
+        "perplexity.com",
+        "pplx.ai"
+      ],
+      "pollo.ai": [
+        "adjust.com",
+        "pollo.ai"
+      ],
+      "stitch.withgoogle.com": [
+        "appspot.com",
+        "withgoogle.com"
+      ]
+    }
+  },
+  "https://dns.google/resolve?name=uae-3.royalnode.cloud&type=A": {
+    "timestamp": 1791497595.4280958,
+    "data": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "uae-3.royalnode.cloud.",
+          "type": 1
+        }
+      ],
+      "Answer": [
+        {
+          "name": "uae-3.royalnode.cloud.",
+          "type": 1,
+          "TTL": 300,
+          "data": "193.123.86.243"
+        }
+      ],
+      "Comment": "Response from 162.159.38.93."
+    }
+  },
+  "https://dns.google/resolve?name=_minecraft._tcp.ploomsy.net&type=SRV": {
+    "timestamp": 1791497595.5284445,
+    "data": {
+      "Status": 3,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "_minecraft._tcp.ploomsy.net.",
+          "type": 33
+        }
+      ],
+      "Authority": [
+        {
+          "name": "ploomsy.net.",
+          "type": 6,
+          "TTL": 1800,
+          "data": "aryanna.ns.cloudflare.com. dns.cloudflare.com. 2416642317 10000 2400 604800 1800"
+        }
+      ],
+      "Comment": "Response from 108.162.194.95."
+    }
+  },
+  "https://dns.google/resolve?name=ploomsy.net&type=A": {
+    "timestamp": 1791497595.5977008,
+    "data": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "ploomsy.net.",
+          "type": 1
+        }
+      ],
+      "Answer": [
+        {
+          "name": "ploomsy.net.",
+          "type": 1,
+          "TTL": 300,
+          "data": "170.205.24.206"
+        }
+      ],
+      "Comment": "Response from 172.64.34.95."
+    }
+  },
+  "https://dns.google/resolve?name=_minecraft._tcp.eu.ploomsy.net&type=SRV": {
+    "timestamp": 1791497595.8934095,
+    "data": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "_minecraft._tcp.eu.ploomsy.net.",
+          "type": 33
+        }
+      ],
+      "Answer": [
+        {
+          "name": "_minecraft._tcp.eu.ploomsy.net.",
+          "type": 33,
+          "TTL": 300,
+          "data": "0 5 25599 eu.ploomsy.net."
+        }
+      ],
+      "Comment": "Response from 162.159.44.170."
+    }
+  },
+  "https://dns.google/resolve?name=eu.ploomsy.net&type=A": {
+    "timestamp": 1791497595.9606197,
+    "data": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "eu.ploomsy.net.",
+          "type": 1
+        }
+      ],
+      "Answer": [
+        {
+          "name": "eu.ploomsy.net.",
+          "type": 1,
+          "TTL": 300,
+          "data": "217.182.175.125"
+        }
+      ],
+      "Comment": "Response from 108.162.194.95."
+    }
+  },
+  "https://dns.google/resolve?name=_minecraft._tcp.lifeamc.fun&type=SRV": {
+    "timestamp": 1791497596.0304902,
+    "data": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "_minecraft._tcp.lifeamc.fun.",
+          "type": 33
+        }
+      ],
+      "Answer": [
+        {
+          "name": "_minecraft._tcp.lifeamc.fun.",
+          "type": 33,
+          "TTL": 300,
+          "data": "10 20 25565 paid9.skilloraclouds.com."
+        }
+      ],
+      "Comment": "Response from 172.64.34.162."
+    }
+  },
+  "https://dns.google/resolve?name=lifeamc.fun&type=A": {
+    "timestamp": 1791497596.1187994,
+    "data": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "lifeamc.fun.",
+          "type": 1
+        }
+      ],
+      "Answer": [
+        {
+          "name": "lifeamc.fun.",
+          "type": 1,
+          "TTL": 300,
+          "data": "216.198.79.1"
+        },
+        {
+          "name": "lifeamc.fun.",
+          "type": 1,
+          "TTL": 300,
+          "data": "64.29.17.1"
+        }
+      ],
+      "Comment": "Response from 172.64.35.85."
+    }
+  },
+  "https://dns.google/resolve?name=paid9.skilloraclouds.com&type=A": {
+    "timestamp": 1791497596.2090614,
+    "data": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "paid9.skilloraclouds.com.",
+          "type": 1
+        }
+      ],
+      "Answer": [
+        {
+          "name": "paid9.skilloraclouds.com.",
+          "type": 1,
+          "TTL": 300,
+          "data": "193.123.92.56"
+        }
+      ],
+      "Comment": "Response from 108.162.195.167."
     }
   }
 }

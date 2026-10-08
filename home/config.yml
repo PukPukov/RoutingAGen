@@ -1,0 +1,89 @@
+cache:
+  ttl_seconds: 604800
+  file: ".cache"
+
+lists:
+  main:
+  # заблокированное.впны
+  - "blancvpn.com"
+  - "blancvpn.guru"
+  - "durevpn.com"
+  - "durev-connect.online"
+  - "redshieldvpn.me"
+  # заблокированное.оокла спидтест
+  - "speedtest.net"
+  - "ooklaserver.net"
+  - "valtrix.org"
+  - "cdnst.net"
+  - "uu.net"
+  - "melbicom.net"
+  - "pingless.com"
+  - "vodafone.al"
+  - "tibo.al"
+  - "abissnet.al"
+  - "ibc.al"
+  # заблокированное.прочее
+  - "maximkatz.com"
+  - "opencck.org"
+  - "hcaptcha.com"
+  - "ton.org"
+  - "altcensored.com"
+  - "urbandictionary.com"
+  # плохо грузящееся на пидорашьем интернете
+  - "openjdk.org"
+  - "bcachefs.org"
+  - "jsonbeautifier.org"
+  - "extranix.com"
+  - "noogle.dev"
+  - "who.is"
+  - "canvasmc.io"
+  - "poople.io"
+  - "unmojang.org"
+  - "hypebeast.com"
+  - "mega.nz"
+  - "mega.co.nz"
+  - "lwjgl.org"
+  - "arstechnica.com"
+  - "arstechnica.net"
+  - "cloudflare.com"
+  - "archive.org"
+  - "determinate.systems"
+  - "nixcon.org"
+  - "pretix.cloud"
+  - "downdetector.com"
+  - "voxel.wiki"
+  - "yosoygames.com.ar"
+  - "bsky.app"
+  - "safe.ai"
+  - "arena.ai"
+  - "artificialanalysis.ai"
+  - "pythonhosted.org"
+  # обрыганы
+  - "wikidot.com"
+  - "wdfiles.com"
+  - "microsoft.com"
+  # обрыганы.opencode
+  - "models.dev"
+  - "opencode.ai"
+  exclude: []
+  toIp:
+    - minemalia.net
+    - play.minemalia.net
+    - zyrex.xyz
+    - ploomsy.net
+    - eu.ploomsy.net
+    - lifeamc.fun
+
+vars:
+  main: "https://iplist.opencck.org/?format=json&data=domains&wildcard=1&exclude[group]=ai&exclude[group]=casino"
+  slop: "https://iplist.opencck.org/?format=json&data=domains&wildcard=1&group=ai"
+  telegram: "https://iplist.opencck.org/?format=json&data=cidr4&site=telegram.org"
+
+rules: |-
+  default: direct
+  domain({{ exclude(lists.exclude, resolve(vars.main)) + lists.main }})->proxy
+  domain({{ resolve(vars.slop) }})->stealth
+  ip({{ resolve(vars.telegram) + toIp(lists.toIp) }})->proxy
+
+dns:
+  doh_url: "https://dns.google/resolve"
